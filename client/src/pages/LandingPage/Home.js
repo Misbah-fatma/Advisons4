@@ -1,7 +1,8 @@
 import React from 'react-redux'
 import { Box, Button, Container, Heading, Stack, Text } from "@chakra-ui/react";
 import { ChakraProvider } from "@chakra-ui/react";
-import animationData from "./animation_lnko5v1n.json";
+import animationData from "./Animation - 1712728546298.json";
+import animate2 from  "./Animation - 1712730189303.json"
 import Lottie from "lottie-react";
 import { useNavigate  } from 'react-router-dom';
 
@@ -31,14 +32,15 @@ const Home = () => {
           px={[10, 10, 10, 0]}
         >
           <Box py={10} w={"full"} >
-            <Heading  style={{ color: "white", fontSize : 60}} letterSpacing={"4px"}>
-              Empower <span style={{ color: "#00a3ff" }}>Your</span>
+            <Heading  style={{ color: "white", fontSize : 45}} letterSpacing={"4px"}>
+            Enhance your <span className="text-glow">JOURNEY</span>
             </Heading>
             <Heading style={{ color: "white",  fontSize : 60}} letterSpacing={"4px"} mt={4}>
-              Learning Journey
+            OF LEARNING.
             </Heading>
           </Box>
 
+           
           <Stack w={"100%"} alignItems={"self-start"}>
             <img
               src="https://s3.amazonaws.com/cdn.codeblu.io/website/Landing_Img/lineimg.png"
@@ -54,11 +56,14 @@ const Home = () => {
             py={14}
             style={{ color: "white" }}
           >
-            Upskill, Engage And Develop Your Team With All In One Learning
-            Management Tool
+            
+Utilize an all-in-one learning management tool to upskill, engage, and develop your team effectively.
           </Text>
 
-          <img src="https://s3.amazonaws.com/cdn.codeblu.io/website/Landing_Img/landingpage_mobile_saly.png" />
+          <Lottie
+              animationData={animate2}
+              style={{ height: "200px", width: "100%", transform: "scale(1.5)" }}
+            />
         </Box>
         <Box
           py={10}
@@ -69,7 +74,7 @@ const Home = () => {
           alignItems={"center"}
           justifyContent={"space-evenly"}
         >
-          <Heading style={{ color: "white" }} textAlign={"center"}>Get Your Course Right Now</Heading>
+          <Heading style={{ color: "white" }} textAlign={"center"}>Enroll now, start learning IMMEDIATELY.</Heading>
           <Box h={["200px", "300px"]} w={["200px", "300px"]}>
             <Lottie
               animationData={animationData}
@@ -77,11 +82,12 @@ const Home = () => {
             />
           </Box>
 
-          <Text w={"80%"} fontSize={"0.8rem"} textAlign={"justify"} style={{ color: "white" }}>
-            We're passionate about helping you achieve your learning goals.
-            Whether you're looking to enhance your skills, explore new topics,
-            or advance your career, our diverse range of courses has something
-            for everyone.
+          <Text w={"80%"} fontSize={"14"} textAlign={"justify"} style={{ color: "white", fontWeight : 200 }}>
+            
+We're dedicated to empowering your learning journey, 
+whether you seek skill enhancement, 
+new explorations, or career advancement.
+Unlock your potential with our tailored courses designed to meet your unique learning goals.
           </Text>
 
    
