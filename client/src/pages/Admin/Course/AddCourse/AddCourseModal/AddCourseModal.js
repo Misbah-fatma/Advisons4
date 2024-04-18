@@ -47,7 +47,7 @@ const AddCourseModal = () => {
     formData.append("pdf", coursePdf);
   
 console.log(formData)
-    fetch("/post-course", {
+    fetch("https://new-uwn9.onrender.com/post-course", {
       body: formData,
       method: "post",
       enctype : "multipart/form-data",

@@ -11,7 +11,7 @@ export const getCourses = (courseInfo) => {
 
 export const fetchCourseInfo = () => {
   return (dispatch) => {
-    Axios.get("/get-data-courses", {
+    Axios.get("https://new-uwn9.onrender.com/get-data-courses", {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("auth_token"),
       },

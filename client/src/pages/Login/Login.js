@@ -25,7 +25,7 @@ const Login = () => {
   const formSubmitHandler = (e) => {
     e.preventDefault();
     setLoading(true);
-     fetch("/auth/login", {
+     fetch("https://new-uwn9.onrender.com/auth/login", {
       method: "post",
       headers: {
         "Content-Type": "application/json",

@@ -52,7 +52,7 @@ const Profile = () => {
 
   
 console.log(formData)
-    fetch("/post-course", {
+    fetch("http://localhost:5000/post-course", {
       body: formData,
       method: "post",
       enctype : "multipart/form-data",

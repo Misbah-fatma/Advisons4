@@ -22,7 +22,7 @@ const Register = () => {
   const formSubmitHandler = (e) => {
     e.preventDefault();
     setLoading(true);
-    fetch("/auth/register", {
+    fetch("https://new-uwn9.onrender.com/auth/register", {
       method: "post",
       headers: {
         "Content-Type": "application/json",

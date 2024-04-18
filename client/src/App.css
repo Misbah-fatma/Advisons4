@@ -16,5 +16,5 @@
 
    .text-glow {
     color: #fff; /* Adjust the text color as needed */
-    text-shadow: 0 0 10px rgb(32, 10, 229), 0 0 20px rgb(52, 25, 225), 0 0 30px rgb(48, 13, 186); /* Green glow */
+    text-shadow: 0 0 10px rgb(104, 227, 229), 0 0 20px rgb(97, 173, 236), 0 0 30px rgb(71, 180, 224);
   }

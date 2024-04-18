@@ -53,7 +53,7 @@ const Products = () => {
   useEffect(() => {
     const getProducts = async () => {
       setLoading(true);
-        const response = await axios.post('http://localhost:5000/data-courses');
+        const response = await axios.post('https://new-uwn9.onrender.com/data-courses');
         if (componentMounted) {
          setData(await response.data.data);
          setFilter(await response.data.data);

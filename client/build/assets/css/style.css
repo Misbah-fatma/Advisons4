@@ -144,13 +144,14 @@ body {
 .page-nav {
   padding: 40px;
   text-align: center;
+
   background-color: #00000026; }
   .page-nav ul {
     float: none;
     margin: auto; }
   @media screen and (max-width: 911px) {
     .page-nav {
-      padding-top: 106px; } }
+      padding-top: 6px; } }
   .page-nav h2 {
     font-size: 36px;
     width: 100%;
