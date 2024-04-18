@@ -1,6 +1,6 @@
 import React from 'react'
 import Sidebar from '../../components/Sidebar/Sidebar';
-import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import Navbar from './Navbar';
 const Services = () => {
   return (
